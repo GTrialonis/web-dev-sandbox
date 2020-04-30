@@ -1,0 +1,51 @@
+
+.container{
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+  }
+  
+.container-fluid {
+      background-color:  white;
+  }
+
+  .pattern {
+      height: 80vh;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .woman {
+      width: 100%;
+      height: 80vh;
+  }
