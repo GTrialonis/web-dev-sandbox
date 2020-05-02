@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  body {
+    background-color: white;
+  }
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+.text-color {
+  color: rgb(192, 145, 137);
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.text-black {
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.card-img {
+  /* padding-top: 5px; */
+}
+
+button {
+  background-color: rgb(192, 145, 137);
+}
